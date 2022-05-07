@@ -8,6 +8,7 @@ class Identity {
 var jh: Identity = new Identity();
 
 console.log(jh.nation);
+console.log(jh.name?.concat(' is a good man!'));
 
 
 
